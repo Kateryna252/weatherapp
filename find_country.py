@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+=======
+import html
+>>>>>>> m04_ls2
 from urllib.request import urlopen
 Example_webscraping = "http://example.webscraping.com"
 example_page = urlopen(Example_webscraping).read()
 example_page = str(example_page)
 print(example_page)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> m04_ls2
 list_of_countries = []
 Example_scraping_country_tag = 'png" />'
 while Example_scraping_country_tag in example_page:
